@@ -1,0 +1,467 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.sml-navbar {
+  background-color: #4C3BCF;
+  ;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.sml-navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+.logo-web img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Segoe UI", sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 8px 0;
+  transition: all;
+  transition-duration: 300ms;
+  border-bottom: 1px solid rgba(38, 0, 255, 0);
+}
+
+.sml-navbar ul li a:hover {
+  color: rgba(0, 140, 255, 0.747);
+  border-bottom: 1px solid rgb(0, 140, 255);
+}
+
+.menu-icon {
+  font-size: 28px;
+  display: none;
+}
+
+.upfoto img {
+  width: 100%;
+  height: 530px;  
+  display: flex;
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sld-2 {
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 4rem;
+  padding-top: 5rem;
+}
+
+.border {
+  height: 315px;
+  width: 100%;
+  background-color: #3DC2EC;
+  margin-top: 2rem;
+}
+
+.border h1{
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.border p{
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 2rem;
+  font-size: medium;
+}
+
+.border li{
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 2rem;
+}
+
+.border img {
+  width: 35rem;
+  height: 100%;
+  float: right;
+  float: top;
+}
+
+.comment-support {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.comment-support h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 1rem; 
+}
+
+.comment-support a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  text-decoration: none;
+  margin-left: 94%;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.comment-support a:hover {
+  color: blue;
+}
+
+.cover-isi-review {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  gap: 2rem;
+}
+
+.isi-review {
+  background-color: rgb(223, 223, 226);
+  width: 300px;
+  height: 170px;
+  border-radius: 30px;
+}
+
+.review {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 15%;
+  font-size: large;
+}
+
+.pengirim {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 5%;
+  font-size: medium;
+}
+.border-news {
+  background-color: #4C3BCF;
+  width: 100%;
+  height: 770px;  
+  border-top-right-radius: 65px;
+  border-top-left-radius: 65px;
+  padding-top: 2rem;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid transparent;
+}
+
+.border-news h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 2rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.cover-berita1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover-berita2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.rangka-berita {
+  width: 250px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+}
+
+.rangka-berita img {
+  width: 100%;
+  height: 60%;
+}
+
+.icon-date p {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 1rem;
+  font-size: small;
+}
+
+.tagline-berita  {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  display: inline-block;
+  padding: 10px 15px;
+  text-align:left;
+}
+
+.see-all2 a {
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  padding-top: 3rem;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  padding-left: 48%;
+}
+
+.see-all2 a:hover {
+  color: rgb(0, 153, 255);
+}
+
+.judul-galery h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+.cover-galery {
+align-items: center;
+justify-content: center;
+}
+
+.judul-galery a {
+  color: #1900ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  text-decoration: none;
+  margin-left: 94%;
+  font-size: medium;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.judul-galery a:hover {
+  color: #1900ff;
+}
+
+footer{
+  background: #0c013a;
+  padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.container{
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.footer-content{
+  width: 33.3%;
+}
+.footer-content h3{
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+.footer-content p{
+  width:190px;
+  margin: auto;
+  padding: 7px;
+  color: #ffffff;
+}
+.footer-content ul{
+  text-align: center;
+  color: #ffffff;
+}
+.list{
+  padding: 0;
+}
+
+.list a {
+  color: #ffffff;
+}
+
+.list li{
+  width: auto;
+  text-align: center;
+  list-style-type:none;
+  padding: 7px;
+  position: relative;
+}
+.list li::before{
+  content: '';
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  background: #1900ff;
+  transition-duration: .5s;
+}
+.list li:hover::before{
+  width: 70px;
+}
+.social-icons{
+  text-align: center;
+  padding: 0;
+}
+.social-icons li{
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+}
+.social-icons i{
+  color: white;
+  font-size: 25px;
+}
+.list a{
+  text-decoration: none;
+}
+.list a:hover{
+  color: #f18930;
+}
+.social-icons i:hover{
+  color: #f18930;
+}
+.bottom-bar{
+  background: #f18930;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 50px;
+}
+.bottom-bar p{
+  color: #343434;
+  margin: 0;
+  font-size: 16px;
+  padding: 7px;
+
+}
+
+@media only screen and (max-width: 800px) {
+  nav {
+    flex-wrap: wrap;
+    /* position: fixed; */
+    /* width: 100%; */
+    /* top: 0; */
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav ul li:last-of-type {
+    padding-bottom: 8px;
+  }
+
+  nav ul.hidden {
+    display: none;
+  }
+
+  .menu-icon {
+    display: flex;
+    align-items: center;
+  }
+
+  .upfoto img {
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+  }
+
+  .border {
+    height: 600px;
+    width: 100%;
+    background-color: #02793d;
+    margin-top: 2rem;
+  }
+
+  .border h1{
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 2rem;
+    padding-top: 15px;
+  }
+  
+  .border img {
+    width: 35rem;
+    height: 50%;
+  }
+
+  .comment-support a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    text-decoration: none;
+    margin-left: 80%;
+    font-size: medium;
+    font-weight: 500;
+  }
+
+  .isi-review {
+    background-color: rgb(223, 223, 226);
+    width: 350px;
+    height: 190px;
+    border-radius: 30px;
+  }
+
+  .comment-support {
+    padding-left: 4rem;
+  }
+
+  .border-news {
+    background-color: #4C3BCF;
+    width: 100%;
+    height: 1350px;  
+    border-top-right-radius: 65px;
+    border-top-left-radius: 65px;
+    padding-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid transparent;
+  }
+
+  .cover-berita2 {
+    display: none;
+  }
+
+  .see-all2 a{
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    /* padding-top: 3rem; */
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    padding-left: 44%;
+  }
+
+  .judul-galery a {
+    color: #1900ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    text-decoration: none;
+    margin-left: 80%;
+    font-size: medium;
+    font-weight: 500;
+    padding-bottom: 1rem;
+  }
+}
+
